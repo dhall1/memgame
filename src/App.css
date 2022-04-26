@@ -1,0 +1,34 @@
+.App {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.game-grid-container {
+  margin: 0 auto;
+  display: grid;
+}
+
+.game-grid-container-item {
+  margin: 4px;
+  width: 5rem;
+  height: 5rem;
+  
+  background-color: lightgray;
+  border: thin solid black;
+  border-radius: 5px;
+}
+
+.desired {
+  background-color: lightskyblue;
+}
+
+.good {
+  background-color: green;
+}
+
+.bad {
+  background-color: red;
+}
